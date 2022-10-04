@@ -3,6 +3,7 @@ import './style.css';
 import Frase from './components/Frase';
 import UsandoProps from './components/UsandoProps';
 import Texto from './components/Texto';
+import Lista from './components/Lista';
 
 export default function App() {
   return (
@@ -13,6 +14,8 @@ export default function App() {
       <UsandoProps nome="Scar" idade="26" estadocivil="namorando" />
 
       <Texto />
+
+      <Lista />
     </div>
   );
 }
