@@ -2,7 +2,8 @@ import React from 'react';
 import Alunos from './Item';
 import style from './Lista.module.css';
 
-export default function List() {
+const List = () => {
+  //usando Ecmascritpt 6
   return (
     <>
       <h2 className={style.h1}>Lista de Alunos </h2>
@@ -16,4 +17,5 @@ export default function List() {
       </ul>
     </>
   );
-}
+};
+export default List;

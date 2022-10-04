@@ -4,6 +4,7 @@ import Frase from './components/Frase';
 import UsandoProps from './components/UsandoProps';
 import Texto from './components/Texto';
 import Lista from './components/Lista';
+import TemplateExpressions from './components/Template-expressions';
 
 export default function App() {
   return (
@@ -16,6 +17,8 @@ export default function App() {
       <Texto />
 
       <Lista />
+
+      <TemplateExpressions />
     </div>
   );
 }
