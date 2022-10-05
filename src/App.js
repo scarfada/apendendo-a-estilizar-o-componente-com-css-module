@@ -6,6 +6,7 @@ import Texto from './components/Texto';
 import Lista from './components/Lista';
 import TemplateExpressions from './components/Template-expressions';
 import Events from './components/Events';
+import Challenge from './components/Challenge';
 
 export default function App() {
   return (
@@ -21,8 +22,8 @@ export default function App() {
 
       <TemplateExpressions />
 
-      <Events/>
-      
+      <Events />
+      <Challenge />
     </div>
   );
 }
