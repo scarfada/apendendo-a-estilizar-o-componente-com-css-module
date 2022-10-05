@@ -5,6 +5,7 @@ import UsandoProps from './components/UsandoProps';
 import Texto from './components/Texto';
 import Lista from './components/Lista';
 import TemplateExpressions from './components/Template-expressions';
+import Events from './components/Events';
 
 export default function App() {
   return (
@@ -19,6 +20,9 @@ export default function App() {
       <Lista />
 
       <TemplateExpressions />
+
+      <Events/>
+      
     </div>
   );
 }
